@@ -20,6 +20,19 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Flight search setup
+
+Flight searches are sent from the server through `app/api/flights/route.js`; provider credentials are not sent to the browser. Add these values to `.env.local` (and to your hosting provider's server environment) to enable live searches:
+
+```env
+FLIGHT_API_USER=
+FLIGHT_API_PASSWORD=
+FLIGHT_META_ID=
+FLIGHT_WEBSITE_NAME=
+```
+
+The supplied PHP example masks the password query parameter. This integration defaults to `password`; if the provider requires a different parameter name, set `FLIGHT_API_PASSWORD_PARAM` to the exact name supplied by the provider. Restart the dev server after changing environment variables. Without the required credentials, the flight search form remains available but the results page reports that live search is not configured.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
