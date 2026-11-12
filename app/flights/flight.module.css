@@ -15,7 +15,7 @@
   color: #d3def0;
   background: rgba(0, 0, 0, 0.12);
   font: inherit;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 650;
   cursor: pointer;
 }
@@ -63,7 +63,7 @@
   color: #263248;
   background: transparent;
   font: inherit;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   text-overflow: ellipsis;
 }
@@ -125,7 +125,7 @@
 
 .airportSuggestionCopy strong {
   overflow: hidden;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -134,7 +134,7 @@
 .airportSuggestionCopy small {
   overflow: hidden;
   color: #657185;
-  font-size: 9px;
+  font-size: 12px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -142,7 +142,7 @@
 .airportCode {
   flex: 0 0 auto;
   color: #0058bc;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -150,7 +150,7 @@
   margin: 0;
   padding: 14px 12px;
   color: #657185;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -180,7 +180,7 @@
   color: #263248;
   background: transparent;
   font: inherit;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -215,7 +215,7 @@
   color: #263248;
   background: transparent;
   font: inherit;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 600;
   text-overflow: ellipsis;
 }
@@ -237,7 +237,7 @@
   grid-column: 1 / -1;
   margin: 3px 4px 0;
   color: #ffdfdf;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .resultsMain {
@@ -261,7 +261,7 @@
 
 .resultsEyebrow {
   color: #56749d;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 750;
   letter-spacing: 0.1em;
 }
@@ -276,7 +276,7 @@
 .resultsTop p {
   margin: 0;
   color: #67758a;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .editSearch {
@@ -289,7 +289,7 @@
   border-radius: 5px;
   color: #075fb0;
   background: #fff;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -301,7 +301,7 @@
 
 .resultsCount {
   color: #526075;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -332,12 +332,12 @@
   gap: 10px;
   margin-bottom: 10px;
   color: #617087;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .itineraryHeading strong {
   color: #1d3554;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .itineraryRoute {
@@ -365,7 +365,7 @@
 
 .airport span {
   color: #5e6f84;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 650;
 }
 
@@ -374,7 +374,7 @@
   justify-items: center;
   gap: 4px;
   color: #68778b;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .routeLine {
@@ -417,7 +417,7 @@
   gap: 6px;
   margin-top: 9px;
   color: #a45b12;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .connections span {
@@ -429,7 +429,7 @@
 .itineraryError {
   margin: 0;
   color: #a44343;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .pricePanel {
@@ -444,7 +444,7 @@
 
 .priceLabel {
   color: #718096;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 750;
   letter-spacing: 0.08em;
 }
@@ -459,7 +459,7 @@
 .seatNote {
   margin-top: 3px;
   color: #66758a;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .seatNote {
@@ -482,14 +482,14 @@
 
 .stateCard > strong {
   color: #183453;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .stateCard p {
   max-width: 560px;
   margin: 0 0 7px;
   color: #65748a;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
 }
 
@@ -520,7 +520,7 @@
   border-radius: 4px;
   color: #fff;
   background: var(--blue);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -528,7 +528,7 @@
 .disclaimer {
   margin: 18px 0 0;
   color: #748095;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.55;
 }
 
@@ -605,7 +605,7 @@
 
   .resultsTop p {
     max-width: 230px;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.5;
   }
 

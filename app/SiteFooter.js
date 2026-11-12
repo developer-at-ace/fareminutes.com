@@ -11,7 +11,7 @@ export default function SiteFooter() {
             <strong>Travel information made simple.</strong><br />
             FareMinutes is an independent travel information platform providing free guidance on flight routes, destinations, airline policies, and travel preparation.
             <br /><br />
-            <strong>Operated by: E-TECH LLC</strong>
+            <strong>Operated BY E-TECH LLC</strong>
           </p>
           <a className={homeStyles.footerPhoneButton} href="tel:+18555837015">Call +1 855-583-7015</a>
         </div>
@@ -41,8 +41,7 @@ export default function SiteFooter() {
         </div>
       </div>
       <div className={homeStyles.footerBottom}>
-        <strong>Independent Travel Information Disclaimer</strong>
-        <p>FareMinutes is not an airline or an official airline customer service provider. We do not issue tickets, manage reservations, or process airline refunds. Airline names and trademarks belong to their respective owners.</p>
+        <strong>FareMinutes is not an airline or an official airline customer service provider. We do not issue tickets, manage reservations, or process airline refunds. Airline names and trademarks belong to their respective owners.</strong>
         <span>© {new Date().getFullYear()} FareMinutes. All rights reserved.</span>
       </div>
     </footer>

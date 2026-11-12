@@ -11,7 +11,7 @@ export default function InfoPage({ title, children }) {
       <main className={styles.main}>
         <Link className={styles.backLink} href="/">← Back to FareMinutes</Link>
         <article className={styles.content}>
-          <span className={styles.eyebrow}>TRAVELLA · TRAVEL INFORMATION</span>
+          <span className={styles.eyebrow}>FAREMINUTES · TRAVEL INFORMATION</span>
           <h1>{title}</h1>
           {children}
         </article>

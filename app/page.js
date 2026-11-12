@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import AirportAutocomplete from "./AirportAutocomplete";
 import { findAirport, getAirportLabel } from "./airports";
+import { faqItems } from "./faqItems";
 import SiteFooter from "./SiteFooter";
 import SiteHeader from "./SiteHeader";
 import styles from "./page.module.css";
@@ -119,34 +120,6 @@ const serviceHighlights = [
     title: "Free Support",
     copy: "Get help finding airline contact information and navigating booking questions—no fees.",
     icon: "help",
-  },
-];
-
-const faqItems = [
-  {
-    question: "What is FareMinutes?",
-    answer:
-      "FareMinutes is an independent travel information resource offering destination guides, route research, and planning notes to help travelers explore options before booking with a provider.",
-  },
-  {
-    question: "Do you book flights or provide travel tickets?",
-    answer:
-      "No. FareMinutes provides general guidance and travel research. Flights, reservations, and travel services are arranged directly with airlines, agents, or other booking providers.",
-  },
-  {
-    question: "How should I use these destination guides?",
-    answer:
-      "Use them as a starting point to understand a city, route, or travel concept. We recommend checking current schedules, local rules, and provider details before you make any booking or travel decision.",
-  },
-  {
-    question: "Are the travel tips and route details current?",
-    answer:
-      "We aim to keep the information useful and clear, but travel conditions, visa rules, fares, and schedules can change. Always verify the latest details with the relevant provider or authority before you go.",
-  },
-  {
-    question: "Can I contact FareMinutes if I have a question?",
-    answer:
-      "Yes. You can use the contact options on our site to reach out for general travel information or questions about the service.",
   },
 ];
 
@@ -848,6 +821,9 @@ export default function Home() {
               </details>
             ))}
           </div>
+          <p className={styles.operatorNote}>
+            FareMinutes is operated by E-TECH LLC.
+          </p>
         </section>
       </main>
 
