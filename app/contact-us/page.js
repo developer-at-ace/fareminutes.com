@@ -18,7 +18,7 @@ export default function ContactUsPage() {
       <div className={styles.contactDetails}>
         <p><strong>Website:</strong> <a className={styles.inlineLink} href="https://www.fareminutes.com">www.fareminutes.com</a></p>
         <p><strong>Email:</strong> <a className={styles.inlineLink} href="mailto:support@fareminutes.com">support@fareminutes.com</a></p>
-        <p><strong>Phone:</strong> <a className={styles.inlineLink} href="tel:+18005896584">+1 800-589-6584</a></p>
+        <p><strong>Phone:</strong> <a className={styles.inlineLink} href="tel:+18555837015">+1 855-583-7015</a></p>
         <p><strong>Business Address:</strong> 8120 RESEARCH BLVD STE 105 PMB 280, AUSTIN, TX 78758</p>
         <p><strong>Support Hours:</strong> 9-hour support window (U.S. hours)</p>
       </div>

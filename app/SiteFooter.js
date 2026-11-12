@@ -13,7 +13,7 @@ export default function SiteFooter() {
             <br /><br />
             <strong>Operated by: E-TECH LLC</strong>
           </p>
-          <a className={homeStyles.footerPhoneButton} href="tel:+18005896584">Call +1 800-589-6584</a>
+          <a className={homeStyles.footerPhoneButton} href="tel:+18555837015">Call +1 855-583-7015</a>
         </div>
         <div>
           <h3>Quick Links</h3>
@@ -35,7 +35,7 @@ export default function SiteFooter() {
           <span className={homeStyles.footerContactLabel}>Email:</span>
           <a href="mailto:support@fareminutes.com">support@fareminutes.com</a>
           <span className={homeStyles.footerContactLabel}>Phone:</span>
-          <a href="tel:+18005896584">+1 800-589-6584</a>
+          <a href="tel:+18555837015">+1 855-583-7015</a>
           <span className={homeStyles.footerContactLabel}>Address:</span>
           <address className={homeStyles.footerContactAddress}>8120 RESEARCH BLVD STE 105 PMB 280, AUSTIN, TX 78758</address>
         </div>

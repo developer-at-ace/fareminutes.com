@@ -21,7 +21,7 @@ export default function SiteHeader({ variant = "home" }) {
         <Link className={infoStyles.brand} href="/">FareMinutes<span>.com</span></Link>
         <nav className={infoStyles.nav} aria-label="Information pages">
           {infoPages.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
-          <a className={infoStyles.callButton} href="tel:+18005896584">Call us</a>
+          <a className={infoStyles.callButton} href="tel:+18555837015">Call us</a>
         </nav>
       </header>
     );
@@ -50,7 +50,7 @@ export default function SiteHeader({ variant = "home" }) {
         </a>
         <div className={homeStyles.headerActions}>
           <button type="button" className={homeStyles.localeButton}><span className={homeStyles.flag}>US</span> EN</button>
-          <a className={homeStyles.headerCall} href="tel:+18005896584" aria-label="Call FareMinutes at +1 800-589-6584">Call us <SiteIcon name="phone" size={13} /></a>
+          <a className={homeStyles.headerCall} href="tel:+18555837015" aria-label="Call FareMinutes at +1 855-583-7015">Call us <SiteIcon name="phone" size={13} /></a>
         </div>
       </div>
       <nav className={homeStyles.primaryNav} aria-label="Main navigation">
