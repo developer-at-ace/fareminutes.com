@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import AirportAutocomplete from "./AirportAutocomplete";
 import { findAirport, getAirportLabel } from "./airports";
@@ -791,6 +792,9 @@ export default function Home() {
               routes and destinations. We work independently, without
               affiliation to any airline or travel provider.
             </p>
+            <Link className={styles.aboutDisclaimerLink} href="/disclaimer">
+              Read our full disclaimer
+            </Link>
           </div>
           <div className={styles.aboutNotes}>
             <div>

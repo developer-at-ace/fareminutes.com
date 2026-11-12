@@ -7,31 +7,42 @@ export default function SiteFooter() {
       <div className={homeStyles.footerColumns}>
         <div className={homeStyles.footerBrand}>
           <a className={homeStyles.brand} href="/"><span>FareMinutes<span className={homeStyles.brandDomain}>.com</span></span></a>
-          <p>An independent travel information platform for destination research and trip-planning guidance.</p>
+          <p>
+            <strong>Travel information made simple.</strong><br />
+            FareMinutes is an independent travel information platform providing free guidance on flight routes, destinations, airline policies, and travel preparation.
+            <br /><br />
+            <strong>Operated by: E-TECH LLC</strong>
+          </p>
           <a className={homeStyles.footerPhoneButton} href="tel:+18005896584">Call +1 800-589-6584</a>
         </div>
         <div>
-          <h3>Company</h3>
+          <h3>Quick Links</h3>
+          <Link href="/">Home</Link>
           <Link href="/about-us">About Us</Link>
+          <Link href="/assistance">Assistance</Link>
+          <Link href="/contact-us">Contact Us</Link>
+          <Link href="/faq">FAQs</Link>
         </div>
         <div>
           <h3>Legal</h3>
-          <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
-          <Link href="/faq">Frequently Asked Questions</Link>
+          <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
+          <Link href="/disclaimer">Disclaimer</Link>
+          <Link href="/cancellation-refund">Cancellation &amp; Refund Policy</Link>
         </div>
         <div>
-          <h3>Contact</h3>
-          <span className={homeStyles.footerContactLabel}>For general questions</span>
-          <span className={homeStyles.footerContactLabel}>Phone</span>
-          <a href="tel:+18005896584">+1 800-589-6584</a>
-          <span className={homeStyles.footerContactLabel}>Email</span>
+          <h3>Contact Information</h3>
+          <span className={homeStyles.footerContactLabel}>Email:</span>
           <a href="mailto:support@fareminutes.com">support@fareminutes.com</a>
+          <span className={homeStyles.footerContactLabel}>Phone:</span>
+          <a href="tel:+18005896584">+1 800-589-6584</a>
+          <span className={homeStyles.footerContactLabel}>Address:</span>
+          <address className={homeStyles.footerContactAddress}>8120 RESEARCH BLVD STE 105 PMB 280, AUSTIN, TX 78758</address>
         </div>
       </div>
       <div className={homeStyles.footerBottom}>
-        <strong>Disclaimer</strong>
-        <p>FareMinutes provides independent travel information and general flight-planning resources. We do not operate flights, issue tickets, manage bookings, or provide official support on behalf of airlines. Confirm current details with the relevant provider or authority.</p>
+        <strong>Independent Travel Information Disclaimer</strong>
+        <p>FareMinutes is not an airline or an official airline customer service provider. We do not issue tickets, manage reservations, or process airline refunds. Airline names and trademarks belong to their respective owners.</p>
         <span>© {new Date().getFullYear()} FareMinutes. All rights reserved.</span>
       </div>
     </footer>

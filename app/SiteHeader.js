@@ -6,7 +6,10 @@ import SiteIcon from "./SiteIcon";
 const infoPages = [
   ["About Us", "/about-us"],
   ["FAQ", "/faq"],
+  ["Assistance", "/assistance"],
+  ["Cancellation & Refund Policy", "/cancellation-refund"],
   ["Contact Us", "/contact-us"],
+  ["Disclaimer", "/disclaimer"],
   ["Terms & Conditions", "/terms-and-conditions"],
   ["Privacy Policy", "/privacy-policy"],
 ];
@@ -31,7 +34,7 @@ export default function SiteHeader({ variant = "home" }) {
           <Link className={homeStyles.brand} href="/" aria-label="FareMinutes home">
             <span>FareMinutes<span className={homeStyles.brandDomain}>.com</span></span>
           </Link>
-          <Link className={homeStyles.headerCta} href="/?mode=flights#flight-search">
+          <Link className={`${homeStyles.headerCta} ${homeStyles.flightHeaderCta}`} href="/?mode=flights#flight-search">
             New flight search <SiteIcon name="arrow" size={14} />
           </Link>
         </div>

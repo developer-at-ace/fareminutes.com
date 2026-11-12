@@ -532,6 +532,25 @@
   line-height: 1.55;
 }
 
+@media (max-width: 950px) {
+  .flightField:nth-child(1),
+  .flightField:nth-child(2) {
+    grid-column: span 2;
+  }
+
+  .flightOptions {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 8px;
+  }
+
+  .flightSubmitWrap {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    min-height: 42px;
+  }
+}
+
 @media (max-width: 650px) {
   .airportSuggestions {
     top: calc(100% + 7px);
@@ -558,7 +577,7 @@
 
   .flightOptions {
     grid-column: 1 / -1;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     row-gap: 8px;
   }
 
